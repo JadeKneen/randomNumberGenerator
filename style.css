@@ -1,0 +1,29 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.box {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    text-align: center;
+    background: #F5F5F5;
+    border: #999 5px solid;
+    padding: 10px;
+    font-size: 24px;
+    text-align: center;
+    margin: 20px;
+}
+
+button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    font-size: 16px;
+    margin-left: 10px;
+  }
+
+.container {
+    flex-basis: 50%;
+}

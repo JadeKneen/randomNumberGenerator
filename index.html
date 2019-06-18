@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Random Number Generator</h1>
+    <script>
+        let getRandomNumber=()=>{
+            document.getElementById("randomNum").innerHTML =
+            Math.floor((Math.random()*59)+1)};
+        let getRandomNumber1=()=>{
+            document.getElementById("randomNum1").innerHTML =
+            Math.floor((Math.random()*59)+1)};
+        let getRandomNumber2=()=>{
+            document.getElementById("randomNum2").innerHTML =
+            Math.floor((Math.random()*59)+1)};
+        let getRandomNumber3=()=>{
+            document.getElementById("randomNum3").innerHTML =
+            Math.floor((Math.random()*59)+1)};
+        let getRandomNumber4=()=>{
+            document.getElementById("randomNum4").innerHTML =
+            Math.floor((Math.random()*59)+1)};
+        let getRandomNumber5=()=>{
+            document.getElementById("randomNum5").innerHTML =
+            Math.floor((Math.random()*59)+1)};
+        let getRandomNumber6=()=>{
+            document.getElementById("randomNum6").innerHTML =
+            Math.floor((Math.random()*59)+1)};
+
+        
+    </script>
+
+<div class = "container">
+
+    <div id = "randomNum" class = "box">0</div>
+
+    <button onclick=getRandomNumber() class="btn btn-primary">Click</button>
+
+    <div id = "randomNum1" class = "box">0</div>
+
+    <button onclick=getRandomNumber1() class="btn btn-primary">Click</button>
+
+    <div id = "randomNum2" class = "box">0</div>
+
+    <button onclick=getRandomNumber2() class="btn btn-primary">Click</button>
+
+    <div id = "randomNum3" class = "box">0</div>
+
+    <button onclick=getRandomNumber3() class="btn btn-primary">Click</button>
+
+    <div id = "randomNum4" class = "box">0</div>
+
+    <button onclick=getRandomNumber4() class="btn btn-primary">Click</button>
+
+    <div id = "randomNum5" class = "box">0</div>
+
+    <button onclick=getRandomNumber5() class="btn btn-primary">Click</button>
+
+    <h4>Bonus Number</h4>
+
+    <div id = "randomNum6" class = "box">0</div>
+
+    <button onclick=getRandomNumber6() class="btn btn-primary">Click</button>
+</div>
+</body>
+</html>
